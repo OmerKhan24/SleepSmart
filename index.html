@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sleep Smart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/4fa276819d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="images/8938480.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <h1 class="main-title">SleepSmart</h1>
+            <h2 class="sub-text"><span-2><span-3>Elevate Your Academic Performance</span-3></span-2></h2>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#calculator">Calculator</a>
+            <a href="#article">Research</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3><span><span-2>Enhancing </span-2>Academic Success <span-2>through O</span-2>ptimal Sleep:</span></h3>
+            <h1>A Sleep Quality Analysis and
+                Calculator</h1>
+
+            <div class="overlay"></div>
+            <div class="cover-photo"><img src="images/rmab_w6pe_220706-removebg-preview.png"></div>
+
+            <!-- <div class="home-img">
+                <img src="img/Programming-amico.png">
+            </div> -->
+        </div>
+
+    </section>
+
+
+
+    <section id="calculator" class="main-content">
+        <div class="container" id="calculator">
+            <div class="wrapper">
+                <h2>Study Wellness Calculator</h2>
+                <form action="#">
+                    <div class="hours">
+                        <p>Enter Weekday Sleep Hours</p>
+                        <input type="number" class="sleep-hours" id="sleep-hours-weekday"
+                            placeholder="Weekday sleep hours">
+                        <p>Enter Weekend Sleep Hours</p>
+                        <input class="sleep-hours" id="sleep-hours-weekend" type="number"
+                            placeholder="Weekend sleep hours">
+                        <p>Enter Study Hours (per week)</p>
+                        <input class="sleep-hours" id="study-hours" type="number" placeholder="Study hours">
+                        <p>Enter Your Acadamic Performace <br> (out of 6)</p>
+                        <input class="sleep-hours" id="Performace" type="number" placeholder="Acadamic Performace">
+                        <div id="result" class="sleep-hours"></div>
+                        <button id="submit-button">Get Sleep Analysis</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="tabs-container">
+            <div class="wrapper">
+                <div class="tab-wrapper">
+                    <div class="tab-title">
+                        <p class="tab-link" id="presentSituationTab" data-tab="presentSituationTab">Present Situation
+                        </p>
+                        <div class="tab-content" id="presentSituationTab-content"></div>
+                        <p class="tab-link" data-tab="idealSituationTab">Ideal Situation</p>
+                        <div class="tab-content" id="idealSituationTab-content"></div>
+                        <p class="tab-link" data-tab="suggestionsTab">Suggestions</p>
+                        <div class="tab-content" id="suggestionsTab-content"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="article" class="article">
+        <h1>Research Highlights</h1>
+        <div class="article-card">
+            <div class="article-1">
+                <h2 class="title">
+                    Are Sleep Disorders Disrupting Your Restful Nights?
+                </h2>
+                Recognizing the importance of sleep health is essential, especially with over 80 identified sleep
+                disorders affecting various aspects of our rest. These conditions impact our ability to fall and stay
+                asleep, often leading to fatigue and challenges in daily tasks. Common disorders include insomnia,
+                hypersomnolence, and breathing problems during sleep. The International Classification of Sleep
+                Disorders regularly updates its classifications.
+                <br><br>
+                Conditions like obstructive sleep apnea, restless legs syndrome, and chronic insomnia are prevalent
+                among the 80 varieties. While these disorders can significantly affect daily life, early detection and
+                proper treatment offer avenues for improvement. Prioritizing sleep health and seeking timely assistance
+                contribute to an enhanced quality of life and better sleep experiences.
+            </div>
+        </div>
+
+        <div class="article-card">
+            <div class="article-1">
+                <h2 class="title">
+                    Does Sleep Pattern Influence Academic Success? Unveiling Study Strategies'
+                </h2>
+                Unlocking academic success isn’t just about study methods; it's also about understanding the hidden
+                power of sleep. Dive into the world of effective study strategies and discover the pivotal role your
+                sleep patterns play in shaping your learning journey.
+
+                <ul class="colored-list">
+                    <li>Including breaks in your study sessions improves concentration and memory.</li>
+                    <li>Using internet resources enhances study materials and encourages a variety of teaching methods.
+                    </li>
+                    <li>Taking notes in an efficient manner contributes to improved understanding and recall.</li>
+                    <li>Using active learning strategies promotes greater comprehension and improved memory.</li>
+                    <li>The way students sleep has a big influence on how well they can use these study strategies.</li>
+                    <li>An irregular sleep schedule can make it difficult to concentrate, which can impact study
+                        techniques and overall academic achievement.</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="article-card">
+            <div class="article-1">
+                <h2 class="title">
+                    How to Improve Sleep and Sleep Hygiene ?
+                </h2>
+                <ul class="colored-list">
+                    <li><span-5>Dedicate time to self-care: </span-5>Developing a relaxing routine before bed can
+                        promote healthy sleep.
+                        Try
+                        yoga, meditation, journaling, reading, or listening to calming music.</li>
+                    <li><span-5>Avoid caffeine: </span-5>Stimulants, especially when ingested in the afternoon and
+                        evening, can disrupt
+                        the
+                        body’s circadian rhythm, making it harder to fall and stay asleep.</li>
+                    <li><span-5>Put away electronic devices: </span-5>Smartphones, tablets, and other electronic devices
+                        emit blue light
+                        that
+                        can
+                        disrupt circadian rhythms and hinder melatonin production in the brain. Aim to put them away at
+                        least 30
+                        minutes before bedtime.</li>
+                    <li><span-5>Exercise daily: </span-5>Even low impact movement, such as a 30-minute walk, can have a
+                        positive impact
+                        on
+                        sleep.
+                    </li>
+                    <li><span-5>Get some sunlight: </span-5>Exposure to natural light blocks melatonin production during
+                        waking hours,
+                        boosting
+                        daytime alertness and promoting relaxation during the night.</li>
+                    <li><span-5>Make the bedroom dark and quiet: </span-5>A tranquil bedroom free of both natural and
+                        artificial light
+                        can
+                        train
+                        the body to associate that space with sleep. A sleep mask and earplugs can reduce disruptions.
+                    </li>
+                    <li><span-5>Choose a supportive mattress: </span-5>Everyone is unique, and preferences for sleep
+                        accessories vary.
+                        Finding
+                        the right mattress and bedding can contribute to a more comfortable sleep environment.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="article-card">
+            <div class="article-1">
+                <h2 class="title">
+                    Sleep Cycle Calculator – How to Determine How Much Sleep You Need
+                </h2>
+
+                <p>
+
+                    According to our survey, the sleeping norms among university students have undergone a shift.
+                    Participants reported an average of 5 hours of sleep on weekdays, while the average increased to
+                    more than 6 hours on the weekends. Interestingly, about 60% of respondents claimed to have little to
+                    no trouble sleeping. However, 33% reported facing sleep difficulties frequently, and 7% reported
+                    experiencing trouble sleeping every day.
+                    <br><br>
+                    Many people are unaware of the recommended sleep duration or fail to
+                    allocate sufficient time for sleep. Generally, adults are advised to get seven to nine hours of
+                    sleep per night, with different sleep requirements for babies, young children, and adolescents.
+                    These guidelines offer a general overview, but the specific amount of sleep needed varies based on
+                    individual factors, such as overall health. For a personalized sleep recommendation, consulting a
+                    doctor is considered the best course of action.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="article-card">
+            <div class="article-1">
+                <h2 class="title">
+                    What Time Should I Go To Sleep?
+                </h2>
+
+                <p>
+                    There is no “one size fits all” bedtime, but there are ways to determine optimal bed and wake-up
+                    times
+                    based on age, geographic location, lifestyle preferences, and obligations like work and school.
+
+                    Experts suggest waking up and falling asleep at the same time each day, even on weekends and days
+                    off.
+                    It is also generally healthiest to be awake during the majority of daylight hours, and asleep during
+                    dark periods.
+                </p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- about us section-->
+
+    <section class="about-container" id="about">
+        <h2 class="heading">Meet <span-2>The</span-2> Team</h2>
+
+        <div class="about-wrapper">
+            <div class="about-box mySwiper">
+                <div class="about-content swiper-wrapper">
+                    <div class="about-slide  swiper-slide">
+                        <div class="team-member">
+                            <img src="images/My Picture.jpg" alt="Muhammad Omer Khan">
+                            <h3>Muhammad Omer Khan</h3>
+                            <p>Digital Visionary and Programming Expert</p>
+                        </div>
+
+                        <div class="team-member">
+                            <img src="images/MANI.jpg" alt="Muhammad Muhib Siddiqui">
+                            <h3>Muhammad Muhib Siddiqui</h3>
+                            <p>Digital Craftsman and Collaborative Expert</p>
+                        </div>
+                    </div>
+                    <div class="about-slide  swiper-slide">
+                        <div class="team-member">
+                            <img src="images/SAAD3.jpg" alt="Muhammad Saad Ashraf">
+                            <h3>Muhammad Saas Arshad</h3>
+                            <p>Data Analyst and Insightful Strategist</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="images/TAHA.jpg" alt="Taha Sharif">
+                            <h3>Taha Sharif</h3>
+                            <p>Data Strategist and Analytics Alchemist</p>
+                        </div>
+                    </div>
+                    <div class="about-slide  swiper-slide">
+                        <div class="team-member">
+                            <img src="images/WASEY.jpg" alt="Abdul Wasey">
+                            <h3>Abdul Wasey</h3>
+                            <p>Survey Specialist and Architect of Insights</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="images/HAMZA.png" alt="Muhammad Hamza">
+                            <h3>Muhammad Hamza</h3>
+                            <p>Presentation Expert and Visual Design Prodigy</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section id="about" class="about">
+        <div class="container mySwiper">
+            <h2 class="heading">Meet <span-2>The</span-2> Team</h2>
+            <div class="team-members swiper-wrapper">
+                <div class="team-member swipper-slide">
+                    <img src="images/My Picture.jpg" alt="Muhammad Omer Khan">
+                    <h3>Muhammad Omer Khan</h3>
+                    <p>Digital Architect and Coding Expert</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/MANI.jpg" alt="Muhammad Muhib Siddiqui">
+                    <h3>Muhammad Muhib Siddiqui</h3>
+                    <p>Digital Craftsman and Collaborative Expert</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/WhatsApp Image 2023-11-18 at 02.10.11_ee1f6278.jpg" Muhammad Saad Ashraf">
+                    <h3>Muhammad Saas Arshad</h3>
+                    <p>Data Analyst and Insightful Strategist</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/TAHA.jpg" alt="Taha Sharif">
+                    <h3>Taha Sharif</h3>
+                    <p>Data Strategist and Analytics Alchemist</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/WASEY.jpg" alt="Abdul Wasey">
+                    <h3>Abdul Wasey</h3>
+                    <p>Survey Specialist and Architect of Insights</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/HAMZA.png" alt="Muhammad Hamza">
+                    <h3>Muhammad Hamza</h3>
+                    <p>Presentation Expert and Visual Design Prodigy</p>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section> -->
+
+    <!-- contact section  -->
+    <section id="contact">
+        <div class="container-contact">
+            <h2 class="heading">Tell <span-2>Us</span-2> Something</h2>
+            <div class="row">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Sugestions"></textarea>
+                    <button class="btn form" type="submit">Submit</button>
+                </form>
+                <span-4 id="msg"></span-4>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Omer 2023. | All Rights reserved. <br>
+        </div>
+
+        <div class="footer-Topicon">
+            <a href="#home"><i class='bx bxs-arrow-to-top'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
