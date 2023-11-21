@@ -21,7 +21,7 @@ SleepSmart is designed to analyze and enhance sleep quality, particularly for in
 - **Meet the Team:** Get to know the talented individuals behind SleepSmart.
 
 ## Getting Started
-1. Clone the repository: `git clone [repository-url]`
+1. Clone the repository: `git clone [(https://github.com/OmerKhan24/SleepSmart/tree/main)]`
 2. Open the `index.html` file in your web browser.
 
 ## Usage
