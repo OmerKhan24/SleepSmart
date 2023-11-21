@@ -21,7 +21,9 @@ SleepSmart is designed to analyze and enhance sleep quality, particularly for in
 - **Meet the Team:** Get to know the talented individuals behind SleepSmart.
 
 ## Getting Started
-1. Clone the repository: `git clone [(https://github.com/OmerKhan24/SleepSmart/tree/main)]`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/OmerKhan24/currency-calculator.git
 2. Open the `index.html` file in your web browser.
 
 ## Usage
