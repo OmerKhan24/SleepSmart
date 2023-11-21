@@ -43,4 +43,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ---
 
-**Copyright © 2023 SleepSmart. All Rights Reserved.**
+**Copyright © 2023 Muhammad Omer Khan. All Rights Reserved.**
