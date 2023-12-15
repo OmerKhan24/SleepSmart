@@ -41,7 +41,7 @@ Learn more about the dedicated team members who contributed to the development o
 Have suggestions or feedback? Feel free to reach out to us. Use the contact form in the Contact section.
 
 ## License
-This project is licensed under the GNU GENERAL PUBLIC LICENSE  License - see the [LICENSE](https://github.com/OmerKhan24/SleepSmart/blob/main/LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/OmerKhan24/SleepSmart/blob/main/LICENSE.md) file for details.
 
 ---
 
